@@ -1,3 +1,5 @@
+/* CSS Document */
+
 body {
     background-color:beige;
     text-align: center;
@@ -5,27 +7,50 @@ body {
     margin:auto
 }
 
+/* headings */
+
 h1 {
     color:black;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
+h2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h6{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* paragraphs */
 
 p{
     font-size: 20px;
-    font-family: Arial;
+    font-family: comic, cursive, sans-serif;
 }
 
-button {
-    padding: 12px 24px;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid black;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-right: 10px;
-    color: rgb(0, 0, 0);
-    background-color: hsla(113, 91%, 38%, 0.822);
+/* div */
+
+div{
+    padding-top: auto;
+    margin: auto;
 }
+
+/* buttons */
 
 .redbtn {
     padding: 12px 24px;
@@ -35,7 +60,46 @@ button {
     border-radius: 10px;
     cursor: pointer;
     margin-right: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background-color: rgb(233, 55, 55);
 
+}
+
+.greenbtn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    background-color: hsla(113, 91%, 38%, 0.822);
+
+}
+
+/* tables */
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-color: black;
+    border-width: 5px;
+}
+
+/* table headers and data cells */
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* links */
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
 }
